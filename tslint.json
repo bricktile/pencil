@@ -1,0 +1,19 @@
+{
+	"extends": [
+		"tslint:recommended",
+		"tslint-react",
+		"tslint-plugin-prettier",
+		"tslint-config-prettier"
+	],
+	"linterOptions": {
+		"exclude": ["config/**/*.js", "node_modules/**/*.ts"]
+	},
+	"rules": {
+		"prettier": [true],
+		"eofline": true,
+		"no-trailing-whitespace": true,
+		"no-unused-expression": [true, "allow-tagged-template"],
+		"linebreak-style": [true, "LF"],
+		"interface-name": false
+	}
+}
